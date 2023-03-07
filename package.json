@@ -1,0 +1,21 @@
+{
+  "name": "11-expressjs-notetaker",
+  "version": "1.0.0",
+  "description": "The note-taking application is designed to help small business owners organize their thoughts and keep track of tasks.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmadrid48/expressJs-quikNotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmadrid48/expressJs-quikNotes/issues"
+  },
+  "homepage": "https://github.com/cmadrid48/expressJs-quikNotes#readme"
+}
