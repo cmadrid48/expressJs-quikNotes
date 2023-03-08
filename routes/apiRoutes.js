@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const { addNote } = require('../db/store');
 const store = require('../db/store');
 
 router.get('/notes', (req, res) => {
@@ -11,9 +10,9 @@ router.get('/notes', (req, res) => {
     .catch((err) => res.status(500).json(err));
 });
 
-router.post('/notes', (req, res0) => {
+router.post('/notes', (req, res) => {
     store
-    .addNote(req, body)
+    .addNote(req.body)
     .then((note) => res.json(note))
     .catch((err) => res.status(500).json(err));
 });
